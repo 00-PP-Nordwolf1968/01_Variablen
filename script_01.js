@@ -46,3 +46,14 @@
 // firstName = "Carla";                // verursacht Laufzeitfehler
 // console.log(firstName);             // Ausgabe
 
+// Deklaration
+let ageAndy, ageMicha;
+const birthYearAndy = 1985;
+const birthYearMicha = 1989;
+
+let year = 2023;
+ageAndy = year - birthYearAndy;
+ageMicha = year - birthYearMicha;
+
+console.log("Alter Andy: " + ageAndy);
+console.log("Alter Micha: " + ageMicha);
