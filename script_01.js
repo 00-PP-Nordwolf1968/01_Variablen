@@ -33,10 +33,16 @@
 
 /* JS ist eine untypisierte Sprache! */
 
-let test;
-test = "Carla";
-test = 2;
-test = false;
+// let test;
+// test = "Carla";
+// test = 2;
+// test = false;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+
+// const firstName = "Uwe";            // Variable mit KOSTANTEM Inhalt
+// firstName = "Carla";                // verursacht Laufzeitfehler
+// console.log(firstName);             // Ausgabe
+
