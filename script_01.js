@@ -46,12 +46,32 @@
 // firstName = "Carla";                // verursacht Laufzeitfehler
 // console.log(firstName);             // Ausgabe
 
+/**** 04 Beispiele Berechnung *****/
+
 // Deklaration
+// let ageAndy, ageMicha;
+// const birthYearAndy = 1985;
+// const birthYearMicha = 1989;
+
+// let year = 2023;
+// ageAndy = year - birthYearAndy;
+// ageMicha = year - birthYearMicha;
+
+// console.log("Alter Andy: " + ageAndy);
+// console.log("Alter Micha: " + ageMicha);
+
+// let date = new Date();
+// let year = date.getFullYear();
+// console.log(date);
+// console.log(year);
+
+
 let ageAndy, ageMicha;
 const birthYearAndy = 1985;
 const birthYearMicha = 1989;
 
-let year = 2023;
+let date = new Date();                  // Systemfunktion Datum
+let year = date.getFullYear();          // Daten liefern lassen
 ageAndy = year - birthYearAndy;
 ageMicha = year - birthYearMicha;
 
